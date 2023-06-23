@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ender-update",
+  "version": "${version}",
+  "name": "Ender Update",
+  "description": "Ender update description",
+  "authors": [
+    "Mod programmer: Wyzebb",
+    "Texturer: Zedocraft"
+  ],
+  "contact": {
+    "repo": "https://github.com/BenSJ/Ender-Update-Fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/ender-update/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.wyzebb.enderupdate.client.EnderUpdateClient"
+    ],
+    "main": [
+      "me.wyzebb.enderupdate.EnderUpdate"
+    ]
+  },
+  "mixins": [
+    "ender-update.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
