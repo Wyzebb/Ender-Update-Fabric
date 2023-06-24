@@ -12,7 +12,6 @@
     "repo": "https://github.com/BenSJ/Ender-Update-Fabric"
   },
   "license": "MIT",
-  "icon": "assets/ender-update/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
