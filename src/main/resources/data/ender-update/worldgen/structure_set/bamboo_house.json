@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ender-update:bamboo_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 987564354,
+
+    "spacing": 20,
+
+    "separation": 8,
+
+    "type": "minecraft:random_spread"
+  }
+}

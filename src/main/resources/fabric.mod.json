@@ -3,13 +3,12 @@
   "id": "ender-update",
   "version": "${version}",
   "name": "Ender Update",
-  "description": "Ender update description",
+  "description": "Amplifies the end dimension in a vanilla style.",
   "authors": [
-    "Mod programmer: Wyzebb",
-    "Texturer: Zedocraft"
+    "Wyzebb"
   ],
   "contact": {
-    "repo": "https://github.com/BenSJ/Ender-Update-Fabric"
+    "repo": "https://github.com/Wyzebb/Ender-Update-Fabric"
   },
   "license": "MIT",
   "environment": "*",
